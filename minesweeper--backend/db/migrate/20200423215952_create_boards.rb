@@ -3,7 +3,7 @@ class CreateBoards < ActiveRecord::Migration[5.2]
     create_table :boards do |t|
       t.integer :width
       t.integer :height
-      t.string :field, array: true, default: []
+      t.string :field, array: true
       t.timestamps
     end
   end
