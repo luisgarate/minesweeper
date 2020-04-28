@@ -1,6 +1,7 @@
 # README - Minesweeper challenge
 ### Requirements
 - DB: Postgres 
+- Clone the repo & run `bundle install`
 - Set the DB: `rake db:create db:migrate`
 - Run the server locally: `rails server`
 
